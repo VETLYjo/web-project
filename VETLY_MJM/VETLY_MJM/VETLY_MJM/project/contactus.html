@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CONTACT US </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="website icon" type="jpeg" href="logo.jpeg">
+<style>
+  
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 8%;
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+}
+.row section.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row section.left{
+    flex-basis: 35%;
+    min-width: 320px;
+    margin-right: 60px;
+}
+.row section.right{
+    flex-basis: 60%;
+}
+section.left .contanctTitle h2{
+    position: relative;
+    font-size: 28px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+section.left .contactInfo{
+    margin-bottom: 16px;
+}
+.contactInfo .iconGroup{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+}
+.iconGroup .icon{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #033604;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.iconGroup .icon i{
+    font-size: 20px;
+    color: #033604;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iconGroup .details span{
+    display: block;
+    color:#033604;
+    font-size: 18px;
+}
+section.left .socialMedia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 22px 0px 20px;
+}
+.socialMedia a{
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: #033604;
+    transition: 0.4s;
+}
+.socialMedia a i{
+    color: #ddd;
+    font-size: 18px;
+    line-height: 35px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+.socialMedia a:hover{
+    transform: translateY(-5px);
+    background-color: #ddd;
+    color: #033604;
+    border: 1px solid #033604;
+}
+.socialMedia a:hover i{
+    color: #033604;
+}
+
+.row section.colright .messageForm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.row section.colright .inputGroup{
+    margin: 18px 0px;
+    position: relative;
+}
+.messageForm .half{
+    flex-basis:  48%;
+}
+.messageForm .full{
+    flex-basis: 100%;
+}
+.messageForm input, .messageForm textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 2px 0px;
+    color: #033604;
+    border: none;
+    border-bottom: 2px solid #033604;
+    outline: none;
+    background-color: transparent;
+}
+.messageForm textarea{
+    resize: none;
+    height: 170px;
+    display: block;
+}
+.inputGroup label{
+    position: absolute;
+    left:0;
+    bottom: 4px;
+    color: #033604;
+    font-size: 18px;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.inputGroup input:focus ~ label, .inputGroup textarea:focus ~ label,
+.inputGroup input:valid ~ label, .inputGroup textarea:valid ~ label
+{
+    transform: translateY(-30px);
+    font-size: 16px;
+}
+
+.inputGroup button{
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: #033604;
+    color: #ddd;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+.inputGroup button:hover{
+    background-color: #ddd;
+    color: #033604;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #033604;
+}
+
+
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class = "nav" style="text-decoration: none;">
+        <nav>
+            <label class="logo"> VETLY </label>
+        <ul>
+            <li ><a style="text-decoration: none;"  href="homepage.html"> Home</a></li>
+            <li><a style="text-decoration: none;"  href="services.html">Services</a></li>
+            <li><a  style="text-decoration: none;"  href="reviews.html">Reviews</a></li>
+            <li><a style="text-decoration: none;"  href="aboutus.html">About Us</a></li>
+            <li ><a style="text-decoration: none;"  href="contactus.html">Contact Us</a></li>
+            <li ><a style="text-decoration: none;"  href="shop.html">Shop</a></li>
+            <li ><a style="text-decoration: none;" href="login.html">login</a></li>
+
+        </ul>
+        </nav>
+            <br><br>
+            <P id="midt">Contact Us</P><br>
+            <p id="midt2"> We Are Interested For You <br> To contact us!</p>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+
+
+    <div class="container">
+        <main class="row">
+    <section class="col left">
+        <div class="contactTitle">
+            <h2 style="color: #033604">GET IN TOUCH</h2>
+        </div>
+        <div class="contactInfo">
+
+            <div class="iconGroup">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="details">
+                    <span>PHONE</span>
+                    <span>+962 7 9643 1206</span>
+                </div>
+            </div>
+
+            <div class="iconGroup">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="details">
+                    <span>EMAIL</span>
+                    <span>vetlyjo@gmail.com</span>
+                </div>
+            </div>
+            <div class="iconGroup">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="details">
+                    <span>LOCATION</span>
+                    <span>Applied Science University, Amman</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="socialMedia">
+             <a href="https://www.instagram.com/vetly.jo/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+    </section>
+
+
+    <section class="colright">
+        <form class="messageForm">
+
+            <div class="inputGroup half">
+                <input type="text" name="" required="required">
+                <label>Full Name</label>
+            </div>
+
+            <div class="inputGroup half">
+                <input type="email" name="" required="required">
+                <label>Email</label>
+            </div>
+
+            <div class="inputGroup full">
+                <input type="text" name="" required="required">
+                <label>Phone Number</label>
+            </div>
+
+            <div class="inputGroup full">
+                <textarea required="required"></textarea>
+                <label>Your Message</label>
+            </div>
+
+            <div class="inputGroup full">
+               <button onclick="alert('Thank You For Contacting Us!')">Send</button>
+            </div>
+
+
+
+        </form>
+
+
+    </section>
+    </main>
+    </div><br><br><br><br>
+    <h2  style="color: #033604; margin-left: 30px;">FAQs</h2>
+    
+    <div style="color: black;" class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item" style = "width:85%;">
+          <h2  class="accordion-header">
+            <button style="color: #E9F5DB; background-color: #033604" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What services does the vet care website offer?
+            </button>
+          </h2>
+          <div  id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div style="background-color: lightgray;" class="accordion-body">The website typically provides information on various veterinary services such as routine check-ups, vaccinations, surgeries, dental care, and emergency services.</div>
+          </div>
+        </div>
+        <div class="accordion-item" style = "width:85%;">
+          <h2 class="accordion-header">
+            <button style="color: lightgray; background-color: #033604;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Can I bring my pet for routine check-ups, or only when they are sick?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div style="background-color: lightgray;"class="accordion-body">Regular check-ups are essential for your pet's well-being. We recommend annual wellness exams to detect potential issues early and keep your pet healthy. <span style = "color :white; background-color: #033604;">Of course,</span> you can also bring your pet in when they're unwell.</div>
+          </div>
+        </div>
+        <div class="accordion-item" style = "width:85%;">
+          <h2 class="accordion-header">
+            <button style="color: lightgray; background-color: #033604;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                How can I obtain my pet's medical records?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div style="background-color: lightgray;" class="accordion-body">You can request your pet's medical records through our online portal, by calling our office, or visiting us in person. We prioritize the security and privacy of your pet's information.</div>
+          </div>
+        </div>
+      
+      <div class="accordion-item" style = "width:85%;">
+        <h2 class="accordion-header">
+          <button style="color: lightgray; background-color: #033604;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Can I purchase prescription medications for my pet directly from the veterinary care center?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div style="background-color: lightgray;" class="accordion-body">Yes, we maintain a stocked pharmacy with a range of prescription medications for your convenience. Our veterinarians will prescribe the necessary medications during your pet's visit.</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 VETLY. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
